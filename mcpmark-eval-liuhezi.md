@@ -1,22 +1,34 @@
-# Organization profile — mcpmark-eval-liuhezi
+# Organization Profile: mcpmark-eval-liuhezi
 
 **Profile:** https://github.com/mcpmark-eval-liuhezi
-**Account ID:** 305407873
 
-## What the API returns
+## What it is
 
-The organization's public profile is bare: no description, no location, no website, no other notable metadata — just the login, the numeric ID, and an avatar. There is nothing in the profile fields to report beyond that.
+`mcpmark-eval-liuhezi` is the one GitHub organization that the team-membership lookup returned for this account — but it returned **no teams** under it. It's a workspace organization I belong to (org ID 305407873), not a named team.
 
-## What it is (reconstructed from its repositories)
+## Where it's based
 
-`mcpmark-eval-liuhezi` reads as a **personal working-workspace organization** rather than a company shipping a product. Its repositories fall into a few clear buckets:
+**Not disclosed.** The organization publishes no location, no bio, and no website. There is also no organization profile README — the `mcpmark-eval-liuhezi/.github` repository returns a 404.
 
-- **Ops & engineering hygiene:** `deploy-runbook` (service handover deploy runbook), `release-notes-bot` (drafts release notes from merged PRs), `onboarding-runbook-demo` (starter repo for the team onboarding runbook), `ci-baseline-audit` (reproducible CI and security baseline before open-sourcing), `security-audit-drill-2` (dry run of the security review checklist), `dependency-watch-2` (baseline tracking for OpenSSL/curl/libssh2 security news).
-- **Sandbox & demo repos:** `release-automation-lab`, `workflow-demo-sandbox`, `copilot-review-trial`, `github-automation-audit` — throwaway spaces for rehearsing pipelines and demoing tooling.
-- **Research & reading lists:** `cbdc-reading-list` (SSRN reading list on CBDC and commercial-bank deposit outflows, for a reading group), `apple-equity-research` (investment-club deep dive on AAPL), `aapl-options-onboarding` (options-desk onboarding tracking).
-- **Team-social & misc:** `pub-quiz-internet-culture`, `throwback-friday` (retro-music blog), `shanghai-trip-plan` (quarterly-review trip planning), `team-cooking-night`, `q3-ai-spend-review` (Q3 AI infrastructure spend tracker).
+## Anything notable
 
-## Notable
+- **Scale:** roughly **2,084 repositories** (public and private combined), all created within a tight window between mid-September and late October 2026.
+- **Character:** the repos are small, purpose-built trackers, runbooks and sandboxes rather than product code. Representative examples:
+  - `shanghai-trip-plan` — *"Beijing team quarterly review trip to Shanghai — train shortlist, station codes, sign-up form link"*
+  - `pub-quiz-internet-culture` — *"Pub quiz rounds — internet culture (fact-checked from primary sources)"*
+  - `q3-ai-spend-review` (private) — *"Tracker for the Q3 AI infrastructure spend review"*
+  - `dependency-watch-2` — *"Baseline tracking for dependency security news: OpenSSL, curl, libssh2"*
+  - `ci-baseline-audit` — *"Reproducible CI and security baseline before open-sourcing."*
+  - `security-audit-drill-2` — *"Dry run of our security review checklist"*
+  - `deploy-runbook` — *"Service handover deploy runbook"*
+  - `cbdc-reading-list` — *"Curated SSRN reading list on CBDC and commercial bank deposit outflows / bank lending, for our reading group discussion"*
+  - `apple-equity-research` — *"Investment club research notes - Apple (AAPL) deep dive"*
+- **Activity pattern:** dozens of repos created in quick succession, each with a handful of open issues — consistent with a team using GitHub orgs as a lightweight tracker system.
 
-- The login embeds **"liuhezi"** — evidently the account holder's own name (account `HeziLiu`) — so the org appears to be the account owner's own scratch workspace.
-- Repos mix public and private, span September–October 2026 activity, and carry essentially zero stars — consistent with an internal/personal workspace rather than a community project.
+## Team membership
+
+The teams lookup returned `{"org": "mcpmark-eval-liuhezi", "teams": []}` — an organization with an **empty team list**. There are no team names and no rosters to report.
+
+## Overlap with starred repositories
+
+None. The starred repositories on this account belong to OpenBMB, PaddlePaddle, FudanNLP, maplezzz, fighting41love and 996icu — not to this organization.
